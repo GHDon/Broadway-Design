@@ -1,0 +1,37 @@
+body {
+  font-family: Helvetica, sans-serif;
+  display: block;
+  margin: 8px;
+  width: 881;
+  height: 1242,060;
+}
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 70px;
+  color: white;
+  width: 881;
+  height: 80;
+  margin: 46.900;
+}
+h1 h2 h3 {
+  font-weight: bold;
+  display: block;
+}
+.nav {
+  background-image: image(resources/images/the-flatiron-building.png);
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  display: block;
+  color: white;
+  width: 881;
+  height: 295.891;
+}
+#banner #process #work #team #content {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  display: block;
+  width: 881;
+  height: 21;
+}
