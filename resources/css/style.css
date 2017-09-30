@@ -60,28 +60,31 @@ h1 h2 h3 {
   height: 295.891;
    width: 100%; /* for IE 6 */
 }
-.supporting-item #process p {
+.btn-nav {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+  color: white;
+  cursor: auto;
+  display: inline;
+  width: auto;
+  height: auto;
+}
+.btn-nav {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+  color: white;
+  cursor: auto;
+  display: inline;
+  width: auto;
+  height: auto;
+}
+.supporting {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   text-align: center;
   color: black;
-  display: block;
-}
-div.supporting #process {
-  font-family: Helvetica, sans-serif;
-  text-align: center;
-  color: black;
-  display: block;
-  width: 603;
-  height: 511.547;
-}
-div.supporting #work #team #contact {
-  font-family: Helvetica, sans-serif;
-  text-align: center;
-  color: black;
-  display: block;
-  width:603;
-  height: 66;
 }
 .line-image {
   background-image:url("../images/the-flatiron-building.png");
