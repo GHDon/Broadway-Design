@@ -42,10 +42,6 @@ h1 h2 h3 {
   display: block;
 }
 .nav p {
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-  color: white;
-  text-align: center;
   width: 603;
   height: 16;
 }
@@ -55,9 +51,11 @@ h1 h2 h3 {
 .nav {
   background-image:url("../images/the-flatiron-building.png");
   font-family: Helvetica, sans-serif;
+  font-size: 18px;
   text-align: center;
   display: block;
   color: white;
+  text-decoration: underline;
   width: 881;
   height: 295.891;
    width: 100%; /* for IE 6 */
@@ -126,7 +124,7 @@ font-size: 11px;
 text-align: center;
 color: white;
 display: block;
-background-color: lightgrey;
+background-color: grey;
 width: 603;
 height: 21;
 }
@@ -150,8 +148,7 @@ height: 21;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   text-decoration: underline;
-  text-decoration: white;
-  text-decoration: solid;
+  color: white;
   cursor: auto;
   display: inline;
   width: auto;
