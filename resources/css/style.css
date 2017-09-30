@@ -1,37 +1,159 @@
 body {
   font-family: Helvetica, sans-serif;
+  color: white;
   display: block;
   margin: 8px;
-  width: 881;
+  width: 603;
   height: 1242,060;
 }
+div.top-container {
+  width: 603;
+  height: 295.891;
+}
 h1 {
-  font-family: Helvetica, sans-serif;
   font-size: 70px;
+  text-align: center;
   color: white;
-  width: 881;
+  width: 603;
   height: 80;
   margin: 46.900;
 }
+h2 {
+  font-size: 32px;
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+  display: block;
+  width: 603;
+  height: 37;
+  margin: 26.56;
+  }
+h3 {
+  font-size: 23px;
+  text-align: center;
+  color: black;
+  width: 603;
+  height: 27;
+  margin: 23px;
+}
 h1 h2 h3 {
+  font_family: Helvetica, sans-serif;
   font-weight: bold;
   display: block;
 }
+.nav p {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  width: 603;
+  height: 16;
+}
+.nav .btn-nav a {
+    a:hover, a:active, a:visited color: white;
+  }
 .nav {
-  background-image: image(resources/images/the-flatiron-building.png);
+  background-image:url("../images/the-flatiron-building.png");
   font-family: Helvetica, sans-serif;
   text-align: center;
   display: block;
   color: white;
   width: 881;
   height: 295.891;
+   width: 100%; /* for IE 6 */
+}
+.supporting-item #process p {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+  display: block;
+}
+div.supporting #process {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: black;
+  display: block;
+  width: 603;
+  height: 511.547;
+}
+div.supporting #work #team #contact {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: black;
+  display: block;
+  width:603;
+  height: 66;
+}
+.line-image {
+  background-image:url("../images/the-flatiron-building.png");
+  font-family: Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  width: 603;
+  height: 27;
+  margin: 19.090
+}
+div.supporting-item #work p {
+  Font-fmaily: Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: block;
+  display: block;
+  width: 603;
+  height: 16px;
+}
+div.supporting-item #team {
+  Font-fmaily: Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: block;
+  display: block;
+  width: 603;
+  height: 66px;
+}
+div.supporting-item #contact {
+  Font-fmaily: Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: block;
+  display: block;
+  width: 603;
+  height: 126;
+}
+.footer {
+font-family: Helvetica, sans-serif;
+font-size: 11px;
+text-align: center;
+color: white;
+display: block;
+background-color: lightgrey;
+width: 603;
+height: 21;
+}
+ .footer p#copy {
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  float: left;
 }
 #banner #process #work #team #content {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   text-align: center;
+  text-decoration: underline;
   color: white;
   display: block;
   width: 881;
   height: 21;
+}
+.btn-nav {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration: white;
+  text-decoration: solid;
+  cursor: auto;
+  display: inline;
+  width: auto;
+  height: auto;
 }
